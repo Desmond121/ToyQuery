@@ -13,6 +13,7 @@ Toy query is a light-weight SQL-like database server implemented in pure Java.
 - Data type information are not maintaining for attributes but only recognized by Regex.
 - Not crash-proof.
 - No buffer pool, write immidiately after query.
+- No concurrent support.
 
 ## 🗪 Query Language
 Toy Query support some basic SQL including:
