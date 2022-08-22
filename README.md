@@ -30,11 +30,15 @@ Full [BNF](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form) grammar [here
 
 
 ## 🚀 How to Run
-Server:
-```
- ./mvnw exec:java -Dexec.mainClass="edu.uob.DBServer"  
-```
-Client:
-```
- ./mvnw exec:java -Dexec.mainClass="edu.uob.DBClient"  
-```
+### Run with idea
+- Open the project.
+- Run `main` method of `DBServer` and `DBClient`.
+### Run with Maven
+- Server:
+ ```
+  ./mvnw exec:java -Dexec.mainClass="edu.uob.DBServer"  
+ ```
+- Client:
+ ```
+  ./mvnw exec:java -Dexec.mainClass="edu.uob.DBClient"  
+ ```
