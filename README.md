@@ -6,7 +6,7 @@ Toy query is a light-weight SQL-like database server implemented in pure Java.
 - Recursive Descent parser supporting nested `WHERE` condition.
 - AST Interpreter.
 - Socket comunication between server and client.
-- Probebly Structured code.
+- Properly Structured code.
 - Support basic data type include Int, Float, Boolean, String and Null.
 
 ## 😢 Some drawbacks 
